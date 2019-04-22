@@ -209,6 +209,9 @@ class PagesController < ApplicationController
   def hubperks
   end
 
+  def manageteam
+  end
+
   def perksperks
   end
 
@@ -297,6 +300,15 @@ class PagesController < ApplicationController
   end
 
   def signup6
+  end
+
+  def insights
+  end
+
+  def teamprofile
+  end
+
+  def teamcredit
   end
 
 

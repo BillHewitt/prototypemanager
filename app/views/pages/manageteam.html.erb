@@ -1,0 +1,179 @@
+<div class="row pt-5 py-5 layer-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-8">
+              <h1 class="display-5">My Team <span class="text-muted team">Team Name <i class="fa fa-edit"></i></span></h1>
+              <p class="lead mb-0">Manage your team and get the best out of your people.</p>
+            </div>
+            <div class="col-xl-4 col-lg-4">
+
+              <div class="card card-sm card-body flex-row align-items-center">
+                  
+
+                  <div class="ml-3">
+                    <h5 class="mb-0"><i class="fa fa-diamond" aria-hidden="true"></i> 472 Team Credits</h5>
+                    <a href="/pages/teamcredit" class="hover-arrow">Manage Team Credit</a>
+                  </div>
+                </div>
+            
+
+
+
+            </div>
+          </div>
+      </div>
+</div>
+
+<section class="pt-0">
+  <div class="container">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link btn active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Insights <i class="fa fa-line-chart"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">People</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Inspire My Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn" id="pills-card-tab" data-toggle="pill" href="#pills-card" role="tab" aria-controls="pills-contact" aria-selected="false">Team Values</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn" id="pills-card-tab" data-toggle="pill" href="#pills-card" role="tab" aria-controls="pills-contact" aria-selected="false">Reports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn" id="pills-card-tab" data-toggle="pill" href="#pills-card" role="tab" aria-controls="pills-contact" aria-selected="false">Activity</a>
+      </li>
+    </ul>
+    <hr>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col col-md-12">
+            <br>
+             <%= render 'layouts/filtersinsights' %>
+            <div class="card shadow border-0">
+              <div class="card-body py-5">
+              <div class="row">
+                  <div class="col-xl-2 col-lg-2">
+                      <img src="/placeholder.jpg" alt="Volkswagen Australia" class="rounded mb-3">
+                    </div>
+                  <div class="col-xl-8 col-lg-8">
+                    <h2>Team Engagement Score</h2>
+                    <h1>3.2/<span class="small">5</span></h1>
+                    <p>Your next pulse survey will be sent to your employees on the 23/04/19, 14:00</p>
+                  </div>
+                  <div class="col-xl-2 col-lg-2">
+                    <a href="/pages/insights" class="btn btn-primary">View Results</a>
+                    <a href="#" class="btn btn-light">Edit</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="row">
+          <div class="col col-md-12">
+            <br>
+             <%= render 'layouts/filterspeople' %>
+           
+              <div class="col-xl-12 col-lg-12">
+                  <table class="table table-responsive">
+                        <thead>
+                          <tr>
+                            <th style="width: 5%" scope="col">
+                              <div class="form-check bill">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div>
+                            </th>
+                            <th style="width: 20%" scope="col">Name</th>
+                            <th style="width: 14%" scope="col">Role</th>
+                            <th style="width: 14%" scope="col">Team(s)</th>
+                            <th style="width: 14%" scope="col">Values</th>
+                            <th style="width: 14%" scope="col">Credit</th>
+                            <th style="width: 14%" scope="col">Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div> 
+                            </td>
+                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"><a href="/pages/teamprofile"> Adam Smith</a></th>
+                            <td class="small">Team Member</td>
+                            <td class="small">Product, Research, Design</td>
+                            <td class="small"><span class="badge badge-pill badge-light small">Work-Life Balance</span></td>
+                            <td class="small"><i class="fa fa-diamond" aria-hidden="true"></i> 25</td>
+                            <td><button type="button" class="btn btn-light btn-sm">Recognise</button><button type="button" class="btn btn-light btn-sm">Incentivise</button><button type="button" class="btn btn-light btn-sm">Gift</button></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div> 
+                            </td>
+                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> Bill Biggins</a></th>
+                            <td class="small">Team Member</td>
+                            <td class="small">Product, Research, Design</td>
+                            <td class="small"><span class="badge badge-pill badge-light small">Teamwork</span></td>
+                            <td class="small"><i class="fa fa-diamond" aria-hidden="true"></i> 25</td>
+                            <td><button type="button" class="btn btn-light btn-sm">Recognise</button><button type="button" class="btn btn-light btn-sm">Incentivise</button><button type="button" class="btn btn-light btn-sm">Gift</button></td>
+                          </tr>
+                           
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+           
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div class="row">
+          <div class="col col-md-12">
+            <br>
+             <%= render 'layouts/filtersteamperks' %>
+            <div class="card shadow border-0">
+              <div class="card-body py-5">
+              <div class="col-xl-6 col-lg-8">
+                  <h2>Inspire my team</h2>
+                  <p>This is where you can create perks, rewards or incentives on a team wide basis. You can also set defaults to be applied to new team members</p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="tab-pane fade" id="pills-interest" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+          <div class="col col-md-12">
+            <br>
+             <%= render 'layouts/filtersteamperks' %>
+            <div class="card shadow border-0">
+              <div class="card-body py-5">
+              <div class="col-xl-6 col-lg-8">
+                  <h2>Team Incentives</h2>
+                  <p>This is where you can create team wide incentives that will be given to all team members and anybody new added to your team</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+        
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+  

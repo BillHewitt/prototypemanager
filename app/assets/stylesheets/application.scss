@@ -35,7 +35,7 @@ body {
   line-height: 2.5;
   color: #495057;
   text-align: left;
-  background-color: #ebebeb;
+  background-color: #f4f4f4;
 }
 
 .bg-primary-3 {
@@ -95,6 +95,22 @@ section.narrow {
 
 .nav-link.nav-link-icon.credit:hover {
   color: #ebebeb;
+}
+
+.nav-link.nav-link-icon.bill {
+  color: #c1c1c1;
+}
+
+.nav-link.nav-link-icon.bill:hover {
+  color: #ebebeb;
+}
+
+.nav-link.nav-link-icon.active {
+  color: #ebebeb;
+}
+
+.nav-link.nav-link-icon.active:hover {
+  color: #c1c1c1;
 }
 
 span.medium {
@@ -190,3 +206,14 @@ display:none;
   color: #747e81;
 }
 
+.text-muted.team {
+  font-size: 20px;
+}
+
+.form-check.bill {
+  margin-top: -40px;
+}
+
+.card.card-body.credit {
+  margin-bottom: -10px;
+}

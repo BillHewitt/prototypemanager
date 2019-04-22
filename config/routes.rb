@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   get 'pages/health'
-  root 'pages#static', page: 'splash'
+  root 'pages#static', page: 'home'
 
   get ':page', to: 'pages#static'
 
@@ -111,5 +111,9 @@ Rails.application.routes.draw do
   get 'pages/johnrew'
   get 'pages/splashemployee'
   get 'pages/signup6'
+  get 'pages/manageteam'
+  get 'pages/insights'
+  get 'pages/teamprofile'
+  get 'pages/teamcredit'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
